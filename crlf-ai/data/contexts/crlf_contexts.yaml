@@ -1,0 +1,74 @@
+# CRLF / HTTP response injection context taxonomy. Each entry is one ContextSpec.
+# Locations: where user input is reflected in the HTTP response.
+# Filters: server-side input checks (decode filters run before block filters).
+contexts:
+  # --- Plain (no filtering): raw CRLF payloads fire -------------------------
+  - id: crlf-resp-header-plain
+    location: response_header
+    filters: []
+  - id: crlf-set-cookie-plain
+    location: set_cookie
+    filters: []
+  - id: crlf-location-plain
+    location: location_header
+    filters: []
+  - id: crlf-resp-body-plain
+    location: response_body
+    filters: []
+  # --- url_decode: server decodes once (so %0d%0a payloads fire) ------------
+  - id: crlf-resp-header-url-decode
+    location: response_header
+    filters: [url_decode]
+  - id: crlf-set-cookie-url-decode
+    location: set_cookie
+    filters: [url_decode]
+  - id: crlf-location-url-decode
+    location: location_header
+    filters: [url_decode]
+  # --- block_crlf: blocks the literal \r\n pair (single CR/LF still slip) ----
+  - id: crlf-resp-header-block-crlf
+    location: response_header
+    filters: [block_crlf]
+  - id: crlf-set-cookie-block-crlf
+    location: set_cookie
+    filters: [block_crlf]
+  # --- block_cr_only / block_lf_only ----------------------------------------
+  - id: crlf-resp-header-block-cr
+    location: response_header
+    filters: [block_cr_only]
+  - id: crlf-resp-header-block-lf
+    location: response_header
+    filters: [block_lf_only]
+  # --- block_percent_0d / block_percent_0a ----------------------------------
+  - id: crlf-resp-header-block-pct-0d
+    location: response_header
+    filters: [block_percent_0d]
+  - id: crlf-resp-header-block-pct-0a
+    location: response_header
+    filters: [block_percent_0a]
+  # --- url_decode + block_crlf: decode then block pair (bypass via double) --
+  - id: crlf-resp-header-decode-block-crlf
+    location: response_header
+    filters: [url_decode, block_crlf]
+  - id: crlf-set-cookie-decode-block-crlf
+    location: set_cookie
+    filters: [url_decode, block_crlf]
+  # --- double_decode + block_crlf: bypass needs triple encoding -------------
+  - id: crlf-resp-header-double-decode-block-crlf
+    location: response_header
+    filters: [double_decode, block_crlf]
+  # --- block_header_keywords: blocks Set-Cookie/Location/Content-Type -------
+  - id: crlf-resp-header-block-keywords
+    location: response_header
+    filters: [block_header_keywords]
+  - id: crlf-resp-body-block-keywords
+    location: response_body
+    filters: [block_header_keywords]
+  # --- url_decode + block_header_keywords -----------------------------------
+  - id: crlf-resp-header-decode-block-keywords
+    location: response_header
+    filters: [url_decode, block_header_keywords]
+  # --- combined hard target: decode + block_crlf + block_keywords -----------
+  - id: crlf-resp-header-hardened
+    location: response_header
+    filters: [url_decode, block_crlf, block_header_keywords]

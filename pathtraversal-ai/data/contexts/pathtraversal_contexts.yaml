@@ -1,0 +1,71 @@
+contexts:
+  # === file_include (PHP-style include/require) ===
+  - id: lfi-include-plain
+    location: file_include
+    filters: []
+  - id: lfi-include-strip-dotdot
+    location: file_include
+    filters: [strip_dotdot]
+  - id: lfi-include-strip-dotdot-recursive
+    location: file_include
+    filters: [strip_dotdot_recursive]
+  - id: lfi-include-basename
+    location: file_include
+    filters: [basename_only]
+  - id: lfi-include-block-nullbyte
+    location: file_include
+    filters: [block_null_byte]
+  - id: lfi-include-url-decode
+    location: file_include
+    filters: [url_decode]
+  - id: lfi-include-double-decode
+    location: file_include
+    filters: [double_decode]
+
+  # === file_read (file_get_contents / fopen) ===
+  - id: lfi-fileread-plain
+    location: file_read
+    filters: []
+  - id: lfi-fileread-block-absolute
+    location: file_read
+    filters: [block_absolute]
+  - id: lfi-fileread-strip-dotdot
+    location: file_read
+    filters: [strip_dotdot]
+  - id: lfi-fileread-prefix-append
+    location: file_read
+    filters: [prefix_append]
+  - id: lfi-fileread-url-decode
+    location: file_read
+    filters: [url_decode]
+
+  # === download_param (?file=INPUT) ===
+  - id: lfi-download-plain
+    location: download_param
+    filters: []
+  - id: lfi-download-block-nullbyte
+    location: download_param
+    filters: [block_null_byte]
+  - id: lfi-download-strip-dotdot-recursive
+    location: download_param
+    filters: [strip_dotdot_recursive]
+  - id: lfi-download-basename
+    location: download_param
+    filters: [basename_only]
+  - id: lfi-download-double-decode
+    location: download_param
+    filters: [double_decode]
+
+  # === template_path (template loader) ===
+  - id: lfi-template-plain
+    location: template_path
+    filters: []
+  - id: lfi-template-block-absolute
+    location: template_path
+    filters: [block_absolute]
+  - id: lfi-template-strip-dotdot
+    location: template_path
+    filters: [strip_dotdot]
+  - id: lfi-template-prefix-append
+    location: template_path
+    filters: [prefix_append]

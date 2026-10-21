@@ -1,0 +1,74 @@
+# XXE context taxonomy. Each entry is one ContextSpec.
+contexts:
+  # --- xml_body (plain + single filters) ---
+  - id: xxe-body-plain
+    location: xml_body
+    filters: []
+  - id: xxe-body-block-doctype
+    location: xml_body
+    filters: [block_doctype]
+  - id: xxe-body-block-entity
+    location: xml_body
+    filters: [block_entity]
+  - id: xxe-body-block-external
+    location: xml_body
+    filters: [block_external_entity]
+  - id: xxe-body-block-param
+    location: xml_body
+    filters: [block_parameter_entity]
+  - id: xxe-body-block-file
+    location: xml_body
+    filters: [block_file_protocol]
+  - id: xxe-body-block-http
+    location: xml_body
+    filters: [block_http_protocol]
+  - id: xxe-body-strip-comments
+    location: xml_body
+    filters: [strip_comments]
+  # --- xml_attribute ---
+  - id: xxe-attr-plain
+    location: xml_attribute
+    filters: []
+  - id: xxe-attr-block-doctype
+    location: xml_attribute
+    filters: [block_doctype]
+  - id: xxe-attr-block-file
+    location: xml_attribute
+    filters: [block_file_protocol]
+  # --- xml_cdata ---
+  - id: xxe-cdata-plain
+    location: xml_cdata
+    filters: []
+  - id: xxe-cdata-block-entity
+    location: xml_cdata
+    filters: [block_entity]
+  # --- soap_body ---
+  - id: xxe-soap-plain
+    location: soap_body
+    filters: []
+  - id: xxe-soap-block-external
+    location: soap_body
+    filters: [block_external_entity]
+  - id: xxe-soap-block-http
+    location: soap_body
+    filters: [block_http_protocol]
+  # --- svg_upload ---
+  - id: xxe-svg-plain
+    location: svg_upload
+    filters: []
+  - id: xxe-svg-block-doctype
+    location: svg_upload
+    filters: [block_doctype]
+  - id: xxe-svg-block-file
+    location: svg_upload
+    filters: [block_file_protocol]
+  # --- combo filters ---
+  - id: xxe-body-block-file-http
+    location: xml_body
+    filters: [block_file_protocol, block_http_protocol]
+  - id: xxe-body-strip-block-param
+    location: xml_body
+    filters: [strip_comments, block_parameter_entity]
+  - id: xxe-svg-block-external-file
+    location: svg_upload
+    filters: [block_external_entity, block_file_protocol]

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "violations": [],
+  "stats": {
+    "context_counts": {
+      "xxe-body-plain": 241,
+      "xxe-body-block-external": 4,
+      "xxe-body-block-param": 240,
+      "xxe-body-block-file": 240,
+      "xxe-body-block-http": 234,
+      "xxe-body-strip-comments": 239,
+      "xxe-attr-plain": 237,
+      "xxe-attr-block-file": 238,
+      "xxe-cdata-plain": 232,
+      "xxe-soap-plain": 243,
+      "xxe-soap-block-external": 4,
+      "xxe-soap-block-http": 239,
+      "xxe-svg-plain": 239,
+      "xxe-svg-block-file": 242,
+      "xxe-body-block-file-http": 55,
+      "xxe-body-strip-block-param": 238,
+      "xxe-svg-block-external-file": 4
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "per_context": {
+    "ssti-jinja2-plain": {
+      "agree": 2,
+      "checked": 2,
+      "rate": 1.0
+    },
+    "ssti-jinja2-block-percent": {
+      "agree": 2,
+      "checked": 2,
+      "rate": 1.0
+    },
+    "ssti-jinja2-block-config": {
+      "agree": 2,
+      "checked": 2,
+      "rate": 1.0
+    },
+    "ssti-jinja2-block-class": {
+      "agree": 1,
+      "checked": 1,
+      "rate": 1.0
+    },
+    "ssti-jinja2-block-subclasses": {
+      "agree": 2,
+      "checked": 2,
+      "rate": 1.0
+    },
+    "ssti-jinja2-block-import": {
+      "agree": 2,
+      "checked": 2,
+      "rate": 1.0
+    },
+    "ssti-jinja2-block-os": {
+      "agree": 2,
+      "checked": 2,
+      "rate": 1.0
+    },
+    "ssti-jinja2-block-config-class": {
+      "agree": 1,
+      "checked": 1,
+      "rate": 1.0
+    },
+    "ssti-twig-plain": {
+      "agree": 2,
+      "checked": 2,
+      "rate": 1.0
+    },
+    "ssti-twig-block-config": {
+      "agree": 2,
+      "checked": 2,
+      "rate": 1.0
+    },
+    "ssti-twig-block-os": {
+      "agree": 2,
+      "checked": 2,
+      "rate": 1.0
+    },
+    "ssti-freemarker-plain": {
+      "agree": 1,
+      "checked": 1,
+      "rate": 1.0
+    },
+    "ssti-freemarker-block-import": {
+      "agree": 1,
+      "checked": 1,
+      "rate": 1.0
+    },
+    "ssti-velocity-plain": {
+      "agree": 1,
+      "checked": 1,
+      "rate": 1.0
+    },
+    "ssti-velocity-block-os": {
+      "agree": 1,
+      "checked": 1,
+      "rate": 1.0
+    },
+    "ssti-mako-plain": {
+      "agree": 1,
+      "checked": 1,
+      "rate": 1.0
+    },
+    "ssti-mako-block-import": {
+      "agree": 1,
+      "checked": 1,
+      "rate": 1.0
+    }
+  },
+  "overall_rate": 1.0,
+  "total_checked": 26
+}

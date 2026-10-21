@@ -1,0 +1,74 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    name: Lint (error-level)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install ruff
+      # Full default rule set — the root ruff.toml ignores only deliberate
+      # patterns (worker-loop exception handling, manual subprocess checks).
+      - name: Ruff
+        run: ruff check --no-cache .
+
+  test:
+    name: Tests · ${{ matrix.project }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - xss-ai
+          - ssrf-ai
+          - sqli-ai
+          - cmdi-ai
+          - pathtraversal-ai
+          - xxe-ai
+          - ssti-ai
+          - openredirect-ai
+          - crlf-ai
+          - exploitgym
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        working-directory: ${{ matrix.project }}
+        run: pip install -e . pytest
+      # xss-ai's browser oracle drives a real Chromium; install it or the
+      # oracle tests fail with "Executable doesn't exist".
+      - name: Install Chromium (xss-ai browser oracle)
+        if: matrix.project == 'xss-ai'
+        run: python -m playwright install --with-deps chromium
+      # xss-ai's test_dataset/test_generate import torch — covered by ml-tests below
+      - name: Unit tests
+        working-directory: ${{ matrix.project }}
+        run: pytest tests/ -q ${{ matrix.project == 'xss-ai' && '--ignore=tests/test_dataset.py --ignore=tests/test_generate.py' || '' }}
+
+  ml-tests:
+    name: ML tests · xss-ai (CPU torch)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install CPU torch + deps
+        working-directory: xss-ai
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers peft pygments pytest
+          pip install -e .
+      - name: Dataset + generation unit tests
+        working-directory: xss-ai
+        run: pytest tests/test_dataset.py tests/test_generate.py -q

@@ -1,0 +1,1 @@
+"""Open redirect oracle package."""

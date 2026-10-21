@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "violations": [],
+  "stats": {
+    "context_counts": {
+      "ssrf-query-plain": 52,
+      "ssrf-query-block-private-ip": 21,
+      "ssrf-query-block-localhost": 20,
+      "ssrf-query-block-private-localhost": 14,
+      "ssrf-query-scheme-http-only": 44,
+      "ssrf-query-block-redirects": 52,
+      "ssrf-query-block-metadata": 50,
+      "ssrf-query-block-private-scheme": 19,
+      "ssrf-query-block-private-redirects": 21,
+      "ssrf-query-dns-check": 51,
+      "ssrf-query-url-validate": 52,
+      "ssrf-post-plain": 52,
+      "ssrf-post-block-private-ip": 21,
+      "ssrf-post-block-private-localhost": 14,
+      "ssrf-json-plain": 52,
+      "ssrf-json-block-private-ip": 21,
+      "ssrf-json-scheme-http-only": 44,
+      "ssrf-redirect-plain": 52,
+      "ssrf-redirect-block-private-ip": 21,
+      "ssrf-xml-plain": 52,
+      "ssrf-xml-block-private-ip": 21
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "violations": [],
+  "stats": {
+    "context_counts": {
+      "cmdi-shellarg-plain": 157,
+      "cmdi-shellarg-block-semicolon": 95,
+      "cmdi-shellarg-block-pipe": 93,
+      "cmdi-shellarg-block-ampersand": 141,
+      "cmdi-shellarg-block-backtick": 151,
+      "cmdi-shellarg-block-dollar": 149,
+      "cmdi-shellarg-block-redirect": 151,
+      "cmdi-shellarg-block-keywords": 81,
+      "cmdi-shellcmd-plain": 162,
+      "cmdi-shellcmd-block-semicolon": 100,
+      "cmdi-shellcmd-block-pipe": 98,
+      "cmdi-shellcmd-block-keywords": 83,
+      "cmdi-shellcmd-block-dollar": 154,
+      "cmdi-filename-plain": 157,
+      "cmdi-filename-block-semicolon": 95,
+      "cmdi-filename-block-ampersand": 141,
+      "cmdi-filename-block-backtick": 151,
+      "cmdi-varval-plain": 157,
+      "cmdi-varval-block-semicolon": 95,
+      "cmdi-varval-block-dollar": 149,
+      "cmdi-shellarg-block-semicolon-pipe": 32,
+      "cmdi-shellarg-block-semi-pipe-amp": 17
+    }
+  }
+}

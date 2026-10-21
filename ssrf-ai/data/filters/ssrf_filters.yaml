@@ -1,0 +1,15 @@
+filters:
+  block_private_ip:
+    desc: "Block private IP ranges (10/8, 172.16/12, 192.168/16, 127/8, 169.254/16)."
+  block_localhost_aliases:
+    desc: "Block localhost aliases (localhost, 0.0.0.0, [::], 2130706433, 0x7f000001)."
+  block_metadata_ip:
+    desc: "Block cloud metadata endpoints (169.254.169.254)."
+  scheme_http_only:
+    desc: "Block non-http(s) schemes (file://, gopher://, dict://, ftp://)."
+  block_redirects:
+    desc: "Do not follow HTTP redirects."
+  url_syntax_validate:
+    desc: "Reject URLs with newlines, CRLF, or backslashes."
+  dns_resolve_check:
+    desc: "Resolve DNS and block if IP is private."

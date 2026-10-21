@@ -1,0 +1,248 @@
+# v1.5 context taxonomy. Filtered contexts DOMINATE; the trivial no-filter case
+# appears once per location for coverage. Combinations exercise the model's
+# ability to bypass multiple filters at once.
+# Every filter name here MUST exist in src/xss_ai/filters.py (validated on load).
+contexts:
+  # ============ HTML body (18) ============
+  - id: html-body-plain
+    location: html_body
+    filters: []
+  - id: html-body-strip-ltgt
+    location: html_body
+    filters: [strip_angle_brackets]
+  - id: html-body-block-script
+    location: html_body
+    filters: [block_keyword_script]
+  - id: html-body-block-alert
+    location: html_body
+    filters: [block_keyword_alert]
+  - id: html-body-block-event-handlers
+    location: html_body
+    filters: [block_event_handlers]
+  - id: html-body-block-on-prefix
+    location: html_body
+    filters: [block_keyword_on_prefix]
+  - id: html-body-escape-ltgt
+    location: html_body
+    filters: [escape_angle_brackets_html]
+  - id: html-body-lowercase
+    location: html_body
+    filters: [lowercase]
+  - id: html-body-strip-lgt-block-script
+    location: html_body
+    filters: [strip_angle_brackets, block_keyword_script]
+  - id: html-body-strip-lgt-block-alert
+    location: html_body
+    filters: [strip_angle_brackets, block_keyword_alert]
+  - id: html-body-block-script-alert
+    location: html_body
+    filters: [block_keyword_script, block_keyword_alert]
+  - id: html-body-block-script-on-prefix
+    location: html_body
+    filters: [block_keyword_script, block_keyword_on_prefix]
+  - id: html-body-escape-lgt-block-script
+    location: html_body
+    filters: [escape_angle_brackets_html, block_keyword_script]
+  - id: html-body-block-event-alert
+    location: html_body
+    filters: [block_event_handlers, block_keyword_alert]
+  - id: html-body-strip-parens
+    location: html_body
+    filters: [strip_parentheses]
+  - id: html-body-block-script-parens
+    location: html_body
+    filters: [block_keyword_script, strip_parentheses]
+  - id: html-body-lowercase-block-script
+    location: html_body
+    filters: [lowercase, block_keyword_script]
+  - id: html-body-strip-backslashes
+    location: html_body
+    filters: [strip_backslashes]
+
+  # ============ Double-quoted attribute (12) ============
+  - id: attr-dq-plain
+    location: attr_dq
+    filters: []
+  - id: attr-dq-escape-dq
+    location: attr_dq
+    filters: [escape_double_quotes_html]
+  - id: attr-dq-block-script
+    location: attr_dq
+    filters: [block_keyword_script]
+  - id: attr-dq-block-alert
+    location: attr_dq
+    filters: [block_keyword_alert]
+  - id: attr-dq-block-event-handlers
+    location: attr_dq
+    filters: [block_event_handlers]
+  - id: attr-dq-strip-lgt
+    location: attr_dq
+    filters: [strip_angle_brackets]
+  - id: attr-dq-escape-dq-block-script
+    location: attr_dq
+    filters: [escape_double_quotes_html, block_keyword_script]
+  - id: attr-dq-escape-dq-block-alert
+    location: attr_dq
+    filters: [escape_double_quotes_html, block_keyword_alert]
+  - id: attr-dq-escape-dq-strip-lgt
+    location: attr_dq
+    filters: [escape_double_quotes_html, strip_angle_brackets]
+  - id: attr-dq-block-script-alert
+    location: attr_dq
+    filters: [block_keyword_script, block_keyword_alert]
+  - id: attr-dq-escape-dq-block-event
+    location: attr_dq
+    filters: [escape_double_quotes_html, block_event_handlers]
+  - id: attr-dq-strip-lgt-block-script
+    location: attr_dq
+    filters: [strip_angle_brackets, block_keyword_script]
+
+  # ============ Single-quoted attribute (10) ============
+  - id: attr-sq-plain
+    location: attr_sq
+    filters: []
+  - id: attr-sq-escape-sq
+    location: attr_sq
+    filters: [escape_single_quotes_html]
+  - id: attr-sq-block-script
+    location: attr_sq
+    filters: [block_keyword_script]
+  - id: attr-sq-block-alert
+    location: attr_sq
+    filters: [block_keyword_alert]
+  - id: attr-sq-block-event-handlers
+    location: attr_sq
+    filters: [block_event_handlers]
+  - id: attr-sq-escape-sq-block-script
+    location: attr_sq
+    filters: [escape_single_quotes_html, block_keyword_script]
+  - id: attr-sq-escape-sq-block-alert
+    location: attr_sq
+    filters: [escape_single_quotes_html, block_keyword_alert]
+  - id: attr-sq-escape-sq-block-event
+    location: attr_sq
+    filters: [escape_single_quotes_html, block_event_handlers]
+  - id: attr-sq-block-script-alert
+    location: attr_sq
+    filters: [block_keyword_script, block_keyword_alert]
+  - id: attr-sq-strip-lgt
+    location: attr_sq
+    filters: [strip_angle_brackets]
+
+  # ============ JS single-quoted string (10) ============
+  - id: js-sq-plain
+    location: js_string_sq
+    filters: []
+  - id: js-sq-escape-sq
+    location: js_string_sq
+    filters: [escape_single_quotes_html]
+  - id: js-sq-block-alert
+    location: js_string_sq
+    filters: [block_keyword_alert]
+  - id: js-sq-strip-parens
+    location: js_string_sq
+    filters: [strip_parentheses]
+  - id: js-sq-block-script
+    location: js_string_sq
+    filters: [block_keyword_script]
+  - id: js-sq-escape-sq-block-alert
+    location: js_string_sq
+    filters: [escape_single_quotes_html, block_keyword_alert]
+  - id: js-sq-escape-sq-strip-parens
+    location: js_string_sq
+    filters: [escape_single_quotes_html, strip_parentheses]
+  - id: js-sq-block-alert-parens
+    location: js_string_sq
+    filters: [block_keyword_alert, strip_parentheses]
+  - id: js-sq-strip-backslashes
+    location: js_string_sq
+    filters: [strip_backslashes]
+  - id: js-sq-lowercase
+    location: js_string_sq
+    filters: [lowercase]
+
+  # ============ JS double-quoted string (8) ============
+  - id: js-dq-plain
+    location: js_string_dq
+    filters: []
+  - id: js-dq-escape-dq
+    location: js_string_dq
+    filters: [escape_double_quotes_html]
+  - id: js-dq-block-alert
+    location: js_string_dq
+    filters: [block_keyword_alert]
+  - id: js-dq-strip-parens
+    location: js_string_dq
+    filters: [strip_parentheses]
+  - id: js-dq-escape-dq-block-alert
+    location: js_string_dq
+    filters: [escape_double_quotes_html, block_keyword_alert]
+  - id: js-dq-escape-dq-strip-parens
+    location: js_string_dq
+    filters: [escape_double_quotes_html, strip_parentheses]
+  - id: js-dq-block-alert-parens
+    location: js_string_dq
+    filters: [block_keyword_alert, strip_parentheses]
+  - id: js-dq-block-script
+    location: js_string_dq
+    filters: [block_keyword_script]
+
+  # ============ URL parameter (8) ============
+  - id: url-param-plain
+    location: url_param
+    encoding: [url_decode]
+    filters: []
+  - id: url-param-block-javascript
+    location: url_param
+    encoding: [url_decode]
+    filters: [block_keyword_javascript]
+  - id: url-param-block-script
+    location: url_param
+    encoding: [url_decode]
+    filters: [block_keyword_script]
+  - id: url-param-block-alert
+    location: url_param
+    encoding: [url_decode]
+    filters: [block_keyword_alert]
+  - id: url-param-strip-lgt
+    location: url_param
+    encoding: [url_decode]
+    filters: [strip_angle_brackets]
+  - id: url-param-block-javascript-alert
+    location: url_param
+    encoding: [url_decode]
+    filters: [block_keyword_javascript, block_keyword_alert]
+  - id: url-param-block-script-alert
+    location: url_param
+    encoding: [url_decode]
+    filters: [block_keyword_script, block_keyword_alert]
+  - id: url-param-escape-lgt
+    location: url_param
+    encoding: [url_decode]
+    filters: [escape_angle_brackets_html]
+
+  # ============ HTML comment (8) ============
+  - id: html-comment-plain
+    location: html_comment
+    filters: []
+  - id: html-comment-strip-lgt
+    location: html_comment
+    filters: [strip_angle_brackets]
+  - id: html-comment-block-script
+    location: html_comment
+    filters: [block_keyword_script]
+  - id: html-comment-block-alert
+    location: html_comment
+    filters: [block_keyword_alert]
+  - id: html-comment-block-event-handlers
+    location: html_comment
+    filters: [block_event_handlers]
+  - id: html-comment-strip-lgt-block-script
+    location: html_comment
+    filters: [strip_angle_brackets, block_keyword_script]
+  - id: html-comment-block-script-alert
+    location: html_comment
+    filters: [block_keyword_script, block_keyword_alert]
+  - id: html-comment-escape-lgt
+    location: html_comment
+    filters: [escape_angle_brackets_html]

@@ -1,0 +1,78 @@
+contexts:
+  # --- shell_arg: input is an argument to a shell command (ping INPUT) ---
+  - id: cmdi-shellarg-plain
+    location: shell_arg
+    filters: []
+  - id: cmdi-shellarg-block-semicolon
+    location: shell_arg
+    filters: [block_semicolon]
+  - id: cmdi-shellarg-block-pipe
+    location: shell_arg
+    filters: [block_pipe]
+  - id: cmdi-shellarg-block-ampersand
+    location: shell_arg
+    filters: [block_ampersand]
+  - id: cmdi-shellarg-block-backtick
+    location: shell_arg
+    filters: [block_backtick]
+  - id: cmdi-shellarg-block-dollar
+    location: shell_arg
+    filters: [block_dollar]
+  - id: cmdi-shellarg-block-redirect
+    location: shell_arg
+    filters: [block_redirect]
+  - id: cmdi-shellarg-block-keywords
+    location: shell_arg
+    filters: [block_keywords]
+  - id: cmdi-shellarg-alphanumeric
+    location: shell_arg
+    filters: [alphanumeric_only]
+  # --- shell_command: input IS the command (system(INPUT)) ---
+  - id: cmdi-shellcmd-plain
+    location: shell_command
+    filters: []
+  - id: cmdi-shellcmd-block-semicolon
+    location: shell_command
+    filters: [block_semicolon]
+  - id: cmdi-shellcmd-block-pipe
+    location: shell_command
+    filters: [block_pipe]
+  - id: cmdi-shellcmd-block-keywords
+    location: shell_command
+    filters: [block_keywords]
+  - id: cmdi-shellcmd-block-dollar
+    location: shell_command
+    filters: [block_dollar]
+  # --- filename_arg: input is a filename argument (cat INPUT) ---
+  - id: cmdi-filename-plain
+    location: filename_arg
+    filters: []
+  - id: cmdi-filename-block-semicolon
+    location: filename_arg
+    filters: [block_semicolon]
+  - id: cmdi-filename-block-ampersand
+    location: filename_arg
+    filters: [block_ampersand]
+  - id: cmdi-filename-block-backtick
+    location: filename_arg
+    filters: [block_backtick]
+  # --- variable_value: input is set as env var then used in command ---
+  - id: cmdi-varval-plain
+    location: variable_value
+    filters: []
+  - id: cmdi-varval-block-semicolon
+    location: variable_value
+    filters: [block_semicolon]
+  - id: cmdi-varval-block-dollar
+    location: variable_value
+    filters: [block_dollar]
+  - id: cmdi-varval-alphanumeric
+    location: variable_value
+    filters: [alphanumeric_only]
+  # --- multi-filter combos ---
+  - id: cmdi-shellarg-block-semicolon-pipe
+    location: shell_arg
+    filters: [block_semicolon, block_pipe]
+  - id: cmdi-shellarg-block-semi-pipe-amp
+    location: shell_arg
+    filters: [block_semicolon, block_pipe, block_ampersand]

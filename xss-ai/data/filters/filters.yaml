@@ -1,0 +1,33 @@
+# Human-readable mirror of src/xss_ai/filters.py for documentation.
+# The registry in filters.py is the source of truth; this file documents intent.
+filters:
+  strip_angle_brackets:
+    desc: "Remove < and > characters."
+  strip_open_angle:
+    desc: "Remove < only."
+  escape_double_quotes_html:
+    desc: 'Encode " as &quot;.'
+  escape_single_quotes_html:
+    desc: "Encode ' as &#39;."
+  escape_angle_brackets_html:
+    desc: "Encode < > as &lt; &gt;."
+  block_keyword_script:
+    desc: "Reject input containing 'script' (case-insensitive)."
+  block_keyword_alert:
+    desc: "Reject input containing 'alert' (case-insensitive)."
+  block_keyword_javascript:
+    desc: "Reject input containing 'javascript:'."
+  block_event_handlers:
+    desc: "Strip on*= event handler attributes."
+  block_keyword_on_prefix:
+    desc: "Reject input containing on*= event handlers."
+  url_decode:
+    desc: "URL-decode (%XX) before reflection."
+  html_entity_decode:
+    desc: "HTML-entity-decode before reflection."
+  strip_parentheses:
+    desc: "Remove ( and )."
+  lowercase:
+    desc: "Lowercase input."
+  strip_backslashes:
+    desc: "Remove backslashes."

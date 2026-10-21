@@ -1,0 +1,17 @@
+filters:
+  block_curly_braces:
+    desc: "Block '{{' and '}}' (Jinja2/Twig expression delimiters)."
+  block_percent_braces:
+    desc: "Block '{%' and '%}' (Jinja2/Twig statement delimiters)."
+  block_dollar_braces:
+    desc: "Block '${' and '}' (FreeMarker/Mako interpolation)."
+  block_keyword_config:
+    desc: "Block 'config', 'self', and 'request' keywords."
+  block_class_keyword:
+    desc: "Block the '__class__' attribute access."
+  block_subclasses:
+    desc: "Block the '__subclasses__' attribute access."
+  block_import:
+    desc: "Block the 'import' keyword."
+  block_os_keyword:
+    desc: "Block 'os', 'popen', and 'system' keywords."

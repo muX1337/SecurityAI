@@ -1,0 +1,38 @@
+[project]
+name = "xss-ai"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6,<3",
+    "pyyaml>=6.0,<7",
+    "playwright>=1.40,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<9"]
+ml = [
+    "torch>=2.4",
+    "transformers>=4.44",
+    "peft>=0.12",
+    "accelerate>=0.34",
+    "trl>=1.0",
+    "datasets>=2.0",
+    "bitsandbytes>=0.43; platform_system != 'Windows' or sys_platform != 'win32'",
+]
+
+[project.scripts]
+xss-gen = "xss_ai.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "browser: tests that launch a real Chromium browser (slow)",
+]

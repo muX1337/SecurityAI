@@ -1,0 +1,73 @@
+# SSTI context taxonomy. Each entry is one ContextSpec.
+contexts:
+  # --- Jinja2 (Flask) ---
+  - id: ssti-jinja2-plain
+    location: jinja2_body
+    filters: []
+  - id: ssti-jinja2-block-curly
+    location: jinja2_body
+    filters: [block_curly_braces]
+  - id: ssti-jinja2-block-percent
+    location: jinja2_body
+    filters: [block_percent_braces]
+  - id: ssti-jinja2-block-config
+    location: jinja2_body
+    filters: [block_keyword_config]
+  - id: ssti-jinja2-block-class
+    location: jinja2_body
+    filters: [block_class_keyword]
+  - id: ssti-jinja2-block-subclasses
+    location: jinja2_body
+    filters: [block_subclasses]
+  - id: ssti-jinja2-block-import
+    location: jinja2_body
+    filters: [block_import]
+  - id: ssti-jinja2-block-os
+    location: jinja2_body
+    filters: [block_os_keyword]
+  - id: ssti-jinja2-block-config-class
+    location: jinja2_body
+    filters: [block_keyword_config, block_class_keyword]
+  - id: ssti-jinja2-block-curly-percent
+    location: jinja2_body
+    filters: [block_curly_braces, block_percent_braces]
+  # --- Twig (PHP/Symfony) ---
+  - id: ssti-twig-plain
+    location: twig_body
+    filters: []
+  - id: ssti-twig-block-curly
+    location: twig_body
+    filters: [block_curly_braces]
+  - id: ssti-twig-block-config
+    location: twig_body
+    filters: [block_keyword_config]
+  - id: ssti-twig-block-os
+    location: twig_body
+    filters: [block_os_keyword]
+  # --- FreeMarker (Java) ---
+  - id: ssti-freemarker-plain
+    location: freemarker_body
+    filters: []
+  - id: ssti-freemarker-block-dollar
+    location: freemarker_body
+    filters: [block_dollar_braces]
+  - id: ssti-freemarker-block-import
+    location: freemarker_body
+    filters: [block_import]
+  # --- Velocity (Java) ---
+  - id: ssti-velocity-plain
+    location: velocity_body
+    filters: []
+  - id: ssti-velocity-block-os
+    location: velocity_body
+    filters: [block_os_keyword]
+  # --- Mako (Python) ---
+  - id: ssti-mako-plain
+    location: mako_body
+    filters: []
+  - id: ssti-mako-block-dollar
+    location: mako_body
+    filters: [block_dollar_braces]
+  - id: ssti-mako-block-import
+    location: mako_body
+    filters: [block_import]

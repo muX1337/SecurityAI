@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# --- Virtual envs (every subproject has .venv and/or .venv-ml) ---
+.venv/
+.venv-ml/
+venv/
+
+# --- Trained model weights (46 GB+ — train locally, see docs/model-management.md) ---
+models/*/final/
+models/*/merged/
+models/*/checkpoint-*/
+*/models/*/final/
+*/models/*/merged/
+*/models/*/checkpoint-*/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.onnx
+
+# --- Runtime data (message board, results) ---
+*.db
+*.db-journal
+*.sqlite3
+
+# --- Third-party corpora (re-fetch: python scripts/fetch_third_party.py) ---
+xss-ai/data/raw/SecLists/
+xss-ai/data/raw/PayloadsAllTheThings/
+malware-lab/cape/
+
+# --- Caches, editors, OS ---
+.cache/
+node_modules/
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
+
+# --- Secrets (local only, never commit) ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Local scope policy (user targets; template: scope.example.yaml) ---
+exploitgym/scope.yaml
+demo.db
+*.bak

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-ml/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Data (regenerable / large)
+data/raw/
+data/pairs/
+*.jsonl
+
+# Models
+models/
+
+# OS
+Thumbs.db

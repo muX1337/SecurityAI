@@ -1,0 +1,10 @@
+# Root lint policy. Full default rule set; the ignores below are
+# deliberate patterns in this codebase:
+# - BLE001/S110: worker loops intentionally swallow exceptions to keep
+#   the swarm/proxy running (logged, never silent data loss)
+# - PLW1510: subprocess.run without check= — returncode handled manually
+# - B017: pytest.raises(Exception) in robustness tests (asserting the
+#   message, not the type)
+# - PYI063: positional-only params in stubs predate this rule's style
+[lint]
+ignore = ["BLE001", "S110", "PLW1510", "B017", "PYI063"]

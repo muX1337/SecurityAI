@@ -1,0 +1,38 @@
+{
+  "passed": false,
+  "violations": [
+    "balance: context 'crlf-resp-header-plain' is 8.5% of train (max 8%)",
+    "balance: context 'crlf-set-cookie-plain' is 8.5% of train (max 8%)",
+    "balance: context 'crlf-location-plain' is 8.5% of train (max 8%)",
+    "balance: context 'crlf-resp-body-plain' is 8.5% of train (max 8%)",
+    "balance: context 'crlf-resp-header-url-decode' is 8.9% of train (max 8%)",
+    "balance: context 'crlf-set-cookie-url-decode' is 8.9% of train (max 8%)",
+    "balance: context 'crlf-location-url-decode' is 8.9% of train (max 8%)",
+    "balance: context 'crlf-resp-header-block-pct-0d' is 8.5% of train (max 8%)",
+    "balance: context 'crlf-resp-header-block-pct-0a' is 8.5% of train (max 8%)",
+    "volume: train has 213 pairs (min 500)"
+  ],
+  "stats": {
+    "context_counts": {
+      "crlf-resp-header-plain": 18,
+      "crlf-set-cookie-plain": 18,
+      "crlf-location-plain": 18,
+      "crlf-resp-body-plain": 18,
+      "crlf-resp-header-url-decode": 19,
+      "crlf-set-cookie-url-decode": 19,
+      "crlf-location-url-decode": 19,
+      "crlf-resp-header-block-crlf": 5,
+      "crlf-set-cookie-block-crlf": 5,
+      "crlf-resp-header-block-cr": 3,
+      "crlf-resp-header-block-lf": 2,
+      "crlf-resp-header-block-pct-0d": 18,
+      "crlf-resp-header-block-pct-0a": 18,
+      "crlf-resp-header-decode-block-crlf": 5,
+      "crlf-set-cookie-decode-block-crlf": 5,
+      "crlf-resp-header-double-decode-block-crlf": 5,
+      "crlf-resp-header-block-keywords": 6,
+      "crlf-resp-body-block-keywords": 6,
+      "crlf-resp-header-decode-block-keywords": 6
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "violations": [],
+  "stats": {
+    "context_counts": {
+      "lfi-include-plain": 41,
+      "lfi-include-strip-dotdot": 25,
+      "lfi-include-strip-dotdot-recursive": 21,
+      "lfi-include-basename": 3,
+      "lfi-include-block-nullbyte": 38,
+      "lfi-include-url-decode": 41,
+      "lfi-include-double-decode": 41,
+      "lfi-fileread-plain": 41,
+      "lfi-fileread-block-absolute": 32,
+      "lfi-fileread-strip-dotdot": 25,
+      "lfi-fileread-prefix-append": 41,
+      "lfi-fileread-url-decode": 41,
+      "lfi-download-plain": 41,
+      "lfi-download-block-nullbyte": 38,
+      "lfi-download-strip-dotdot-recursive": 21,
+      "lfi-download-basename": 3,
+      "lfi-download-double-decode": 41,
+      "lfi-template-plain": 41,
+      "lfi-template-block-absolute": 32,
+      "lfi-template-strip-dotdot": 25,
+      "lfi-template-prefix-append": 41
+    }
+  }
+}

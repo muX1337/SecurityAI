@@ -1,0 +1,65 @@
+# SSRF context taxonomy. Each entry is one ContextSpec.
+contexts:
+  - id: ssrf-query-plain
+    location: query_param
+    filters: []
+  - id: ssrf-query-block-private-ip
+    location: query_param
+    filters: [block_private_ip]
+  - id: ssrf-query-block-localhost
+    location: query_param
+    filters: [block_localhost_aliases]
+  - id: ssrf-query-block-private-localhost
+    location: query_param
+    filters: [block_private_ip, block_localhost_aliases]
+  - id: ssrf-query-scheme-http-only
+    location: query_param
+    filters: [scheme_http_only]
+  - id: ssrf-query-block-redirects
+    location: query_param
+    filters: [block_redirects]
+  - id: ssrf-query-block-metadata
+    location: query_param
+    filters: [block_metadata_ip]
+  - id: ssrf-query-block-private-scheme
+    location: query_param
+    filters: [block_private_ip, scheme_http_only]
+  - id: ssrf-query-block-private-redirects
+    location: query_param
+    filters: [block_private_ip, block_redirects]
+  - id: ssrf-query-dns-check
+    location: query_param
+    filters: [dns_resolve_check]
+  - id: ssrf-query-url-validate
+    location: query_param
+    filters: [url_syntax_validate]
+  - id: ssrf-post-plain
+    location: post_body
+    filters: []
+  - id: ssrf-post-block-private-ip
+    location: post_body
+    filters: [block_private_ip]
+  - id: ssrf-post-block-private-localhost
+    location: post_body
+    filters: [block_private_ip, block_localhost_aliases]
+  - id: ssrf-json-plain
+    location: json_field
+    filters: []
+  - id: ssrf-json-block-private-ip
+    location: json_field
+    filters: [block_private_ip]
+  - id: ssrf-json-scheme-http-only
+    location: json_field
+    filters: [scheme_http_only]
+  - id: ssrf-redirect-plain
+    location: redirect_header
+    filters: []
+  - id: ssrf-redirect-block-private-ip
+    location: redirect_header
+    filters: [block_private_ip]
+  - id: ssrf-xml-plain
+    location: xml_body
+    filters: []
+  - id: ssrf-xml-block-private-ip
+    location: xml_body
+    filters: [block_private_ip]

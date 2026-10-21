@@ -1,0 +1,31 @@
+{
+  "passed": false,
+  "violations": [
+    "balance: context 'ssti-jinja2-plain' is 10.0% of train (max 8%)",
+    "balance: context 'ssti-jinja2-block-percent' is 10.0% of train (max 8%)",
+    "balance: context 'ssti-jinja2-block-import' is 10.0% of train (max 8%)",
+    "balance: context 'ssti-twig-plain' is 10.0% of train (max 8%)",
+    "volume: train has 210 pairs (min 500)"
+  ],
+  "stats": {
+    "context_counts": {
+      "ssti-jinja2-plain": 21,
+      "ssti-jinja2-block-percent": 21,
+      "ssti-jinja2-block-config": 15,
+      "ssti-jinja2-block-class": 13,
+      "ssti-jinja2-block-subclasses": 15,
+      "ssti-jinja2-block-import": 21,
+      "ssti-jinja2-block-os": 16,
+      "ssti-jinja2-block-config-class": 8,
+      "ssti-twig-plain": 21,
+      "ssti-twig-block-config": 15,
+      "ssti-twig-block-os": 16,
+      "ssti-freemarker-plain": 4,
+      "ssti-freemarker-block-import": 4,
+      "ssti-velocity-plain": 7,
+      "ssti-velocity-block-os": 5,
+      "ssti-mako-plain": 4,
+      "ssti-mako-block-import": 4
+    }
+  }
+}

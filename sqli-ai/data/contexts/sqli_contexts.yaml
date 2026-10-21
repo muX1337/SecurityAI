@@ -1,0 +1,122 @@
+contexts:
+  - id: sqli-string-plain
+    location: string_literal
+    filters: []
+  - id: sqli-string-escape-quotes
+    location: string_literal
+    filters: [escape_single_quotes]
+  - id: sqli-string-block-union
+    location: string_literal
+    filters: [block_keyword_union]
+  - id: sqli-string-block-select
+    location: string_literal
+    filters: [block_keyword_select]
+  - id: sqli-string-block-and-or
+    location: string_literal
+    filters: [block_keyword_and_or]
+  - id: sqli-string-block-comment-dash
+    location: string_literal
+    filters: [block_comment_dash]
+  - id: sqli-string-block-comment-hash
+    location: string_literal
+    filters: [block_comment_hash]
+  - id: sqli-string-lowercase
+    location: string_literal
+    filters: [lowercase_input]
+  - id: sqli-string-escape-block-union
+    location: string_literal
+    filters: [escape_single_quotes, block_keyword_union]
+  - id: sqli-string-escape-block-select
+    location: string_literal
+    filters: [escape_single_quotes, block_keyword_select]
+  - id: sqli-numeric-plain
+    location: numeric
+    filters: []
+  - id: sqli-numeric-block-union
+    location: numeric
+    filters: [block_keyword_union]
+  - id: sqli-numeric-block-select
+    location: numeric
+    filters: [block_keyword_select]
+  - id: sqli-numeric-cast
+    location: numeric
+    filters: [numeric_cast]
+  - id: sqli-numeric-block-and-or
+    location: numeric
+    filters: [block_keyword_and_or]
+  - id: sqli-orderby-plain
+    location: order_by
+    filters: []
+  - id: sqli-orderby-block-union
+    location: order_by
+    filters: [block_keyword_union]
+  - id: sqli-column-plain
+    location: column_name
+    filters: []
+  - id: sqli-column-lowercase
+    location: column_name
+    filters: [lowercase_input]
+  - id: sqli-insert-plain
+    location: insert_values
+    filters: []
+  # ---- Extended combos (v2 improvement) ----
+  - id: sqli-string-escape-block-and-or
+    location: string_literal
+    filters: [escape_single_quotes, block_keyword_and_or]
+  - id: sqli-string-escape-block-comment-hash
+    location: string_literal
+    filters: [escape_single_quotes, block_comment_hash]
+  - id: sqli-string-block-union-select
+    location: string_literal
+    filters: [block_keyword_union, block_keyword_select]
+  - id: sqli-string-block-union-and-or
+    location: string_literal
+    filters: [block_keyword_union, block_keyword_and_or]
+  - id: sqli-string-block-union-comment
+    location: string_literal
+    filters: [block_keyword_union, block_comment_dash, block_comment_hash]
+  - id: sqli-string-block-select-and-or
+    location: string_literal
+    filters: [block_keyword_select, block_keyword_and_or]
+  - id: sqli-string-escape-union-select
+    location: string_literal
+    filters: [escape_single_quotes, block_keyword_union, block_keyword_select]
+  - id: sqli-string-escape-lowercase
+    location: string_literal
+    filters: [escape_single_quotes, lowercase_input]
+  - id: sqli-string-block-all-comments
+    location: string_literal
+    filters: [block_comment_dash, block_comment_hash]
+  - id: sqli-numeric-block-union-select
+    location: numeric
+    filters: [block_keyword_union, block_keyword_select]
+  - id: sqli-numeric-block-union-and-or
+    location: numeric
+    filters: [block_keyword_union, block_keyword_and_or]
+  - id: sqli-numeric-block-select-comments
+    location: numeric
+    filters: [block_keyword_select, block_comment_dash, block_comment_hash]
+  - id: sqli-numeric-cast-block-union
+    location: numeric
+    filters: [numeric_cast, block_keyword_union]
+  - id: sqli-orderby-block-select
+    location: order_by
+    filters: [block_keyword_select]
+  - id: sqli-orderby-block-union
+    location: order_by
+    filters: [block_keyword_union]
+  - id: sqli-orderby-block-and-or
+    location: order_by
+    filters: [block_keyword_and_or]
+  - id: sqli-column-block-union
+    location: column_name
+    filters: [block_keyword_union]
+  - id: sqli-column-block-select
+    location: column_name
+    filters: [block_keyword_select]
+  - id: sqli-insert-block-union
+    location: insert_values
+    filters: [block_keyword_union]
+  - id: sqli-insert-escape
+    location: insert_values
+    filters: [escape_single_quotes]

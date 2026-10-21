@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-ml/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Data (regenerable / large)
+data/raw/
+data/pairs/
+*.jsonl
+
+# Models (later plans)
+models/
+
+# OS
+Thumbs.db
+
+# Transient logs
+train_log.txt

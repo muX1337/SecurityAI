@@ -1,0 +1,86 @@
+{
+  "per_context": {
+    "redirect-param-plain": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "redirect-param-block-absolute": {
+      "agree": 4,
+      "checked": 4,
+      "rate": 1.0
+    },
+    "redirect-param-block-protocol-relative": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "redirect-param-block-at": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "redirect-param-block-backslash": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "redirect-param-url-decode": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "redirect-param-block-dotdot": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "redirect-param-block-absolute-protocol-relative": {
+      "agree": 1,
+      "checked": 1,
+      "rate": 1.0
+    },
+    "redirect-param-block-absolute-at": {
+      "agree": 3,
+      "checked": 3,
+      "rate": 1.0
+    },
+    "location-header-plain": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "location-header-block-absolute": {
+      "agree": 4,
+      "checked": 4,
+      "rate": 1.0
+    },
+    "return-url-plain": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "return-url-block-absolute": {
+      "agree": 4,
+      "checked": 4,
+      "rate": 1.0
+    },
+    "return-url-block-protocol-relative": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "next-param-plain": {
+      "agree": 6,
+      "checked": 6,
+      "rate": 1.0
+    },
+    "next-param-block-absolute": {
+      "agree": 4,
+      "checked": 4,
+      "rate": 1.0
+    }
+  },
+  "overall_rate": 1.0,
+  "total_checked": 80
+}

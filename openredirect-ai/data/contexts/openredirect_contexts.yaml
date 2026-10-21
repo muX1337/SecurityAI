@@ -1,0 +1,68 @@
+# Open redirect context taxonomy. Each entry is one ContextSpec.
+contexts:
+  - id: redirect-param-plain
+    location: redirect_param
+    filters: []
+  - id: redirect-param-block-absolute
+    location: redirect_param
+    filters: [block_absolute_url]
+  - id: redirect-param-require-same-domain
+    location: redirect_param
+    filters: [require_same_domain]
+  - id: redirect-param-block-protocol-relative
+    location: redirect_param
+    filters: [block_protocol_relative]
+  - id: redirect-param-block-at
+    location: redirect_param
+    filters: [block_at_symbol]
+  - id: redirect-param-block-backslash
+    location: redirect_param
+    filters: [block_backslash]
+  - id: redirect-param-url-decode
+    location: redirect_param
+    filters: [url_decode]
+  - id: redirect-param-block-dotdot
+    location: redirect_param
+    filters: [block_dotdot]
+  - id: redirect-param-allowlist-paths
+    location: redirect_param
+    filters: [allowlist_paths]
+  - id: redirect-param-block-absolute-protocol-relative
+    location: redirect_param
+    filters: [block_absolute_url, block_protocol_relative]
+  - id: redirect-param-block-absolute-at
+    location: redirect_param
+    filters: [block_absolute_url, block_at_symbol]
+  - id: redirect-param-require-same-block-at
+    location: redirect_param
+    filters: [require_same_domain, block_at_symbol]
+  # location_header
+  - id: location-header-plain
+    location: location_header
+    filters: []
+  - id: location-header-block-absolute
+    location: location_header
+    filters: [block_absolute_url]
+  - id: location-header-require-same-domain
+    location: location_header
+    filters: [require_same_domain]
+  # return_url
+  - id: return-url-plain
+    location: return_url
+    filters: []
+  - id: return-url-block-absolute
+    location: return_url
+    filters: [block_absolute_url]
+  - id: return-url-block-protocol-relative
+    location: return_url
+    filters: [block_protocol_relative]
+  # next_param
+  - id: next-param-plain
+    location: next_param
+    filters: []
+  - id: next-param-block-absolute
+    location: next_param
+    filters: [block_absolute_url]
+  - id: next-param-require-same-domain
+    location: next_param
+    filters: [require_same_domain]

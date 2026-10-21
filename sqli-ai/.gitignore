@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-ml/
+venv/
+*.egg-info/
+.pytest_cache/
+data/raw/
+data/pairs/
+*.jsonl
+models/
+Thumbs.db
